@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment with Bokeh</title>
+    <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.8.1.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.8.1.min.css">
+</head>
+<body>
+
+    {{ the_script|safe }}
+    {{ the_div|safe }}
+
+</body>
+</html> 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Responsive plots</title>
+        {{ js_resources }}
+        {{ css_resources }}
+    </head>
+    <body>
+    <h2>Resize the window to see some plots resizing</h2>
+    <h3>Red - pan tool, responsive</h3>
+    {{ plot_div.red }}
+    <h3>Green - pan and resize tools, responsive (maintains new aspect ratio)</h3>
+    {{ plot_div.green }}
+    <h3>Blue - pan tool, not responsive</h3>
+    {{ plot_div.blue }}
+    {{ plot_script }}
+    </body>
+</html>

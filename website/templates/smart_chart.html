@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Responsive plots</title>
+        {{ js_resources|safe }}
+        {{ css_resources|safe }}
+    </head>
+    <body>
+    <h2>Resize the window to see some plots resizing</h2>
+    <!-- <h3>Red - pan tool, responsive</h3>
+    {{ plot_div.red|safe }} -->
+    <h3>Green - pan and resize tools, responsive (maintains new aspect ratio)</h3>
+    {{ plot_div.green|safe }}
+    <!-- <h3>Blue - pan tool, not responsive</h3>
+    {{ plot_div.blue|safe }} -->
+    {{ plot_script|safe }}
+    </body>
+</html>
