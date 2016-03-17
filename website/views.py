@@ -1,4 +1,5 @@
-import random
+import os
+import numpy as np
 from django.shortcuts import render
 from django.http import HttpResponse
 from bokeh.plotting import figure
@@ -6,10 +7,16 @@ from bokeh.resources import INLINE
 from bokeh.embed import components
 from bokeh.util.browser import view
 from . sshkey import ssh_key
-from example_input_2 import data_x as data_1_x
-from example_input_2 import data_y as data_1_y
-from example_input_3 import data_x as data_2_x
-from example_input_3 import data_y as data_2_y
+from starspectre.settings import BASE_DIR as root
+
+
+
+# from example_input_2 import data_x as data_1_x
+# from example_input_2 import data_y as data_1_y
+# from example_input_3 import data_x as data_2_x
+# from example_input_3 import data_y as data_2_y
+data_1_x, data_1_y = np.loadtxt(os.path.join(root,'example_input2.txt'), delimiter='  ', usecols=(0, 1), unpack=True)
+data_2_x, data_2_y = np.loadtxt(os.path.join(root,'example_input3.txt'), delimiter='  ', usecols=(0, 1), unpack=True)
 # Create your views here.
 
 
