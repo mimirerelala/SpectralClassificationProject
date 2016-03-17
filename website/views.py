@@ -8,7 +8,8 @@ from bokeh.embed import components
 from bokeh.util.browser import view
 from . sshkey import ssh_key
 from starspectre.settings import BASE_DIR as root
-
+from website import forms as f
+from website import helpers as h
 
 
 # from example_input_2 import data_x as data_1_x
@@ -25,13 +26,22 @@ def index(request):
 
 
 def smart_chart(request):
-    PLOT_OPTIONS = dict(plot_width=800, plot_height=400)
-    # SCATTER_OPTIONS = dict(size=12, alpha=0.5)
+    # file upload
+    if request.method == 'POST':
+        form = f.UploadFileForm(request.POST, request.FILES)
+        filename = request.POST.get('session_key') or 'testfilename'
+        if form.is_valid():
+            h.handle_uploaded_file(request.FILES['file'], filename)
+            feedback = 'Success'
+        else:
+            feedback = 'Error'
+    else:
+        form = f.UploadFileForm()
 
-    # red = figure(responsive=True, tools='pan', **PLOT_OPTIONS)
-    # red.scatter(data(), data(), color="red", **SCATTER_OPTIONS)
-    # blue = figure(responsive=False, tools='pan', **PLOT_OPTIONS)
-    # blue.scatter(data(), data(), color="blue", **SCATTER_OPTIONS)
+
+    # Plot creation
+    PLOT_OPTIONS = dict(plot_width=800, plot_height=400)
+    
     green = figure(responsive=True, tools='reset,box_zoom,wheel_zoom,pan,resize,save', **PLOT_OPTIONS)
     green.line(data_1_x, data_1_y, line_color='green')
     green.line(data_2_x, data_2_y, line_color='red')
@@ -43,7 +53,7 @@ def smart_chart(request):
 
     script, div = components({'green': green})
 
-    return render(request, 'smart_chart.html', {'js_resources':js_resources, 'css_resources':css_resources, 'plot_script':script, 'plot_div':div})
+    return render(request, 'smart_chart.html', locals())
 
 
 def ssh_key_show(request):

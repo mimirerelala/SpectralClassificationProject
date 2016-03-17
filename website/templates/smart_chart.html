@@ -7,13 +7,20 @@
         {{ css_resources|safe }}
     </head>
     <body>
-    <h2>Resize the window to see some plots resizing</h2>
+    <div>
+        <form method='POST' enctype="multipart/form-data">
+        {%csrf_token%}
+            {{form}}
+            <input type='submit' value='Upload'>
+        </form>
+    </div>
+        <h2>Resize the window to see some plots resizing</h2>
     <!-- <h3>Red - pan tool, responsive</h3>
     {{ plot_div.red|safe }} -->
     <h3>Green - pan and resize tools, responsive (maintains new aspect ratio)</h3>
-    {{ plot_div.green|safe }}
+    {{ div.green|safe }}
     <!-- <h3>Blue - pan tool, not responsive</h3>
     {{ plot_div.blue|safe }} -->
-    {{ plot_script|safe }}
+    {{ script|safe }}
     </body>
 </html>
