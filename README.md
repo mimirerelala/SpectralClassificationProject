@@ -1,0 +1,2 @@
+# SpectralClassificationProject
+A HackFMI project
