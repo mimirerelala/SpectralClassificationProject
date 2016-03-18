@@ -30,15 +30,15 @@ def smart_chart(request):
             if form.is_valid():
                 h.handle_uploaded_file(request.FILES['file'], filename)
                 feedback = 'Successfully uploaded'
-                js_resources, css_resources, script, div = h.plot_handle(h.file_parse(h.temp, filename))
+                js_resources, css_resources, script, div = h.plot_handle(h.gen_coordinates(h.temp, filename))
             else:
                 feedback = 'Error uploading'
                 filename = 0
         elif request.POST.get('postname') == 'CLASSIFY':
             if filename != 0:
                 feedback = 'Succsessfully plotting'
-                js_resources, css_resources, script, div = h.plot_handle(h.file_parse(h.temp, filename))
-                # form = f.UploadFileForm()
+                js_resources, css_resources, script, div = h.plot_handle(h.gen_coordinates(h.temp, filename))
+                #form = f.UploadFileForm()
                 #filename = 0
             else:
                 feedback = 'No data submitet for analisys'
