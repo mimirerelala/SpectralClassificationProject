@@ -13,12 +13,6 @@ from website import forms as f
 from website import helpers as h
 filename = 0
 
-# from example_input_2 import data_x as data_1_x
-# from example_input_2 import data_y as data_1_y
-# from example_input_3 import data_x as data_2_x
-# from example_input_3 import data_y as data_2_y
-data_1_x, data_1_y = np.loadtxt(os.path.join(root,'example_input2.txt'), usecols=(0, 1), unpack=True)
-data_2_x, data_2_y = np.loadtxt(os.path.join(root,'example_input4.txt'), usecols=(0, 1), unpack=True)
 # Create your views here.
 
 
