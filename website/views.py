@@ -17,8 +17,8 @@ filename = 0
 # from example_input_2 import data_y as data_1_y
 # from example_input_3 import data_x as data_2_x
 # from example_input_3 import data_y as data_2_y
-data_1_x, data_1_y = np.loadtxt(os.path.join(root,'example_input2.txt'), delimiter='  ', usecols=(0, 1), unpack=True)
-data_2_x, data_2_y = np.loadtxt(os.path.join(root,'example_input3.txt'), delimiter='  ', usecols=(0, 1), unpack=True)
+data_1_x, data_1_y = np.loadtxt(os.path.join(root,'example_input2.txt'), usecols=(0, 1), unpack=True)
+data_2_x, data_2_y = np.loadtxt(os.path.join(root,'example_input4.txt'), usecols=(0, 1), unpack=True)
 # Create your views here.
 
 
@@ -35,15 +35,17 @@ def smart_chart(request):
             filename = request.POST.get('csrfmiddlewaretoken') + '-' + ''.join([i for j in range(5) for i in choice(ascii_letters) ])
             if form.is_valid():
                 h.handle_uploaded_file(request.FILES['file'], filename)
-                feedback = 'Success upload'
+                feedback = 'Successfully uploaded'
+                js_resources, css_resources, script, div = h.plot_handle(h.file_parse(h.temp, filename))
             else:
                 feedback = 'Error uploading'
                 filename = 0
         elif request.POST.get('postname') == 'CLASSIFY':
             if filename != 0:
                 feedback = 'Succsessfully plotting'
-                form = f.UploadFileForm()
-                filename = 0
+                js_resources, css_resources, script, div = h.plot_handle(h.file_parse(h.temp, filename))
+                # form = f.UploadFileForm()
+                #filename = 0
             else:
                 feedback = 'No data submitet for analisys'
                 form = f.UploadFileForm()
@@ -51,21 +53,6 @@ def smart_chart(request):
     else:
         form = f.UploadFileForm()
         filename = 0
-
-
-    # Plot creation
-    PLOT_OPTIONS = dict(plot_width=800, plot_height=400)
-    
-    green = figure(responsive=True, tools='reset,box_zoom,wheel_zoom,pan,resize,save', **PLOT_OPTIONS)
-    green.line(data_1_x, data_1_y, line_color='green')
-    green.line(data_2_x, data_2_y, line_color='red')
-
-    resources = INLINE
-
-    js_resources = resources.render_js()
-    css_resources = resources.render_css()
-
-    script, div = components({'green': green})
 
     return render(request, 'smart_chart.html', locals())
     
