@@ -1,19 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style type="text/css">
+        #Filepost {width: 40%;
+            float: left;
+            resize: all;}
+        #Classify{margin-left: 60%}
+        #feedback {width:100%; }
+        </style>
         <meta charset="utf-8">
         <title>Responsive plots</title>
         {{ js_resources|safe }}
         {{ css_resources|safe }}
     </head>
     <body>
-    <div>
-        <form method='POST' enctype="multipart/form-data">
-        {%csrf_token%}
-            {{form}}
-            <input type='submit' value='Upload'>
+    <br><br>
+    <p> 
+    {{ filename|safe }}
+    </p>
+    <p>
+        
+    <div id='Filepost'>
+            <form action="" method='POST' enctype="multipart/form-data" id='filepost'>
+            <fieldset form='filepost'>
+                <legend>Please submit your file for plotting and analisys</legend   >  
+                {%csrf_token%}
+                {{form}}
+                <input type='hidden' name='postname' value='FILEPOST'>
+                <input type='submit' value='Upload'>
+            </fieldset>
         </form>
-    </div>
+        </div>
+        <div id='Classify'>
+       <form action="" method='POST' id='classify'>
+            <fieldset form='classify'>
+                <legend>Click here for star classification</legend>
+                {%csrf_token%}
+                <input type="hidden" name="postname" value="CLASSIFY">
+                <input type="submit" value="Start">
+            </fieldset>
+        </form>
+        </div>
+        <br><br>
+        {%  if feedback %}
+            <div id='feedback'>
+                {{ feedback }}
+            </div>
+        {% endif %}
+    </p>
+    <p>
+    <br><br><br>
+    <div>
         <h2>Resize the window to see some plots resizing</h2>
     <!-- <h3>Red - pan tool, responsive</h3>
     {{ plot_div.red|safe }} -->
@@ -22,5 +59,7 @@
     <!-- <h3>Blue - pan tool, not responsive</h3>
     {{ plot_div.blue|safe }} -->
     {{ script|safe }}
+    </div>
+    </p>
     </body>
 </html>
