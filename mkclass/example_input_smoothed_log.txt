@@ -1,0 +1,149 @@
+MKCLASS v1.07: example_input_smoothed.txt example_input_smoothed.txt
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+prelim = shift
+MKCLASS v1.07: example_input_smoothed.txt example_input_smoothed.txt
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+prelim = shift
+MKCLASS v1.07: example_input_smoothed.txt example_input_smoothed.txt
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+prelim = shift
+MKCLASS v1.07: libnor36 example_input_smoothed.txt
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+prelim = norm,shift
+Gband = 0.958042 CaI = 0.564817 HeI4471 = 235.855806 CaK = 0.708933 TiO = 0.966646
+Roughtype2: sp1 = 5.687892  sp2 = 8259629.213387  sp3 = 43.210082
+Roughtype2: final spt = 5.687892
+t090l50p00.rbn
+Initial type = t090l50p00.rbn
+wavemax = 5357.00
+Emission routine: ave = 0.865047 sdev = 0.190898
+wavemax = 5357.00
+Emission routine: ave = 0.865047 sdev = 0.190898
+emission e = 0
+Carbon ratio = 1.982134
+NN3: slope = 0.000180  height = 0.890957 depth = 0.674232
+wid1 = 4333.000000  wid2 = 4348.000000
+NN3: ratio = 22.247526 width = 15.000000
+Star appears normal
+Spectral template applied
+spt = 17.854174  lum = 3.120382
+Initial Spectral type estimate = A2 III
+
+Classifying this star as an A-type star
+sum1 = 26.179705 sum2 = 57.170685 wavemin = 4341.000000
+D2 = 0.748092
+rw = 4347.000000  bw = 4337.000000
+D2 = 10.0
+lum = 4.624270
+Sr II: dif = 0.140271
+Si II: dif = 0.046838
+K-line type = 20.615389
+CH band dif = 1.163950
+CH band dif = 0.638066
+CH band dif = -0.299838
+CH band dif = -0.124577
+CH band dif = -0.124577
+CH band dif = 0.145796
+CH band dif = -0.201045
+CH band dif = -0.022800
+CH band dif = -0.009999
+CH band dif = 0.005294
+CH band dif = 0.054671
+CH band dif = 0.018821
+Metallic-line type = 21.525063
+mg = -0.012701
+No, it is not metal-weak; it may be a luminous A-type star
+No, it is not metal-weak
+Merged spt = 20.842808
+lum = 5.200000
+Sr II: dif = 0.121485
+Si II: dif = 0.028538
+1: A7 V  SrSi 1.7e-02
+
+Spectral template spt = 20.8  lum = 5.2
+
+Classifying this star as an A-type star
+sum1 = 23.310762 sum2 = 57.596527 wavemin = 4341.000000
+D2 = 0.696893
+rw = 4347.000000  bw = 4336.000000
+D2 = 11.0
+lum = 5.200000
+Sr II: dif = 0.121483
+Si II: dif = 0.028539
+mg = -0.026649
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.508928
+K-line type = 22.995693
+CH band dif = 63.796135
+CH band dif = 0.614260
+CH band dif = -0.081659
+CH band dif = 0.128278
+CH band dif = -0.623956
+CH band dif = -0.081659
+CH band dif = -0.358172
+CH band dif = 0.070353
+CH band dif = -0.006892
+CH band dif = -0.001399
+CH band dif = 0.004152
+Metallic-line type = 22.110607
+K-line type = 22.995693
+Metallic-line type = 22.110607
+Hydrogen-line type = 20.508928
+Amflag = 0
+Merged spt = 21.871744
+lum = 5.200000
+Sr II: dif = 0.115651
+Si II: dif = 0.024763
+2: A8 V  SrSi 2.1e-03
+
+Spectral template spt = 21.9  lum = 5.2
+
+Classifying this star as an A-type star
+sum1 = 22.927917 sum2 = 57.713913 wavemin = 4341.000000
+D2 = 0.690166
+rw = 4347.000000  bw = 4336.000000
+D2 = 11.0
+lum = 5.200000
+Sr II: dif = 0.115649
+Si II: dif = 0.024765
+mg = -0.021347
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.508533
+K-line type = 22.992411
+CH band dif = 0.563691
+CH band dif = 0.060121
+CH band dif = -0.366838
+CH band dif = 0.060121
+CH band dif = -0.089403
+CH band dif = 0.180533
+CH band dif = -0.010017
+CH band dif = -0.004545
+CH band dif = 0.000982
+CH band dif = 0.022760
+CH band dif = 0.006566
+Metallic-line type = 22.093674
+K-line type = 22.992411
+Metallic-line type = 22.093674
+Hydrogen-line type = 20.508533
+Amflag = 0
+Merged spt = 21.864874
+lum = 5.200000
+Sr II: dif = 0.115681
+Si II: dif = 0.024774
+
+Best iteration: I = 3
+3: A8 V  SrSi 1.7e-03
+
+1:  A7 V  SrSi 		|  fair   | \\  1.7e-02
+2:  A8 V  SrSi 		|  good   | \\  2.1e-03
+3:  A8 V  SrSi 		|  good   | \\  1.7e-03
+================================================
+

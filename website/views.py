@@ -19,6 +19,10 @@ filename = 0
 # from example_input_3 import data_y as data_2_y
 data_1_x, data_1_y = np.loadtxt(os.path.join(root,'example_input2.txt'), delimiter='  ', usecols=(0, 1), unpack=True)
 data_2_x, data_2_y = np.loadtxt(os.path.join(root,'example_input3.txt'), delimiter='  ', usecols=(0, 1), unpack=True)
+
+data1 = np.genfromtxt(os.path.join(root,'example_input2.txt'))
+data_1_x = data1[:,0]
+data_1_y = data1[:,1]
 # Create your views here.
 
 
