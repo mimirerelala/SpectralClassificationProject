@@ -32,7 +32,7 @@ def smart_chart(request):
             for file in file_list:
                 filename = file.name
                 h.handle_uploaded_file(foldername, file, filename)
-            # feedback = 'Successfully uploaded'
+            feedback = 'Successfully uploaded'
             js_resources, css_resources, script, div = h.plot_handle(h.gen_coordinates(os.path.join(h.temp, foldername)))
             # else:
             #     feedback = 'Error uploading'
