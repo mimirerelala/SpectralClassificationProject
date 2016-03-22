@@ -19,22 +19,26 @@
 
 </style> <title>StellarSpecter</title>
   </head>
-  <body>{{ js_resources|safe }} {{ css_resources|safe }}
+  <body>
+    {{ js_resources|safe }}
+    {{ css_resources|safe }}
     <div>
       <div id="Filepost">
         <form action="" method="POST" enctype="multipart/form-data" id="filepost">
           <fieldset form="filepost"> <legend>Please submit your file for
-              plotting and analisys</legend> {%csrf_token%}<br>
+              plotting and analisys</legend> 
+              {%csrf_token%} 
+              {{form}} <br>
             <br>
-            <input type="file" multiple="multiple" required="required" name="File"> <!--accept="*.txt"-->
-            <input name="postname" value="FILEPOST" type="hidden"> <br>
-            <input value="Upload" type="submit"> </fieldset>
+            <input name="postname" value="FILEPOST" type="hidden"> <input value="Upload"
+              type="submit"> </fieldset>
         </form>
       </div>
       <div id="Classify">
         <form action="" method="POST" id="classify">
           <fieldset form="classify"> <legend>Click here for star classification</legend>
-            {%csrf_token%} <input name="postname" value="CLASSIFY" type="hidden">
+            {%csrf_token%} 
+            <input name="postname" value="CLASSIFY" type="hidden">
             <input value="Start" type="submit"> </fieldset>
         </form>
       </div>
@@ -45,9 +49,10 @@
       <br>
     </div>
     <div style="margin-left: 8px; margin-top: 67px;"> 
-    {% if feedback %} 
+      {% if feedback %} 
         {{ feedback }} 
-    {% endif %} </div>
+      {% endif %} 
+    </div>
     <br>
     <br>
     <br>
@@ -55,8 +60,6 @@
     <!-- <h3>Red - pan tool, responsive</h3>
     {{ plot_div.red|safe }} -->
     <h3>Here goes the plot</h3>
-    {{div.plot|safe}}
-
-    {{ script|safe }}
+    {{div.plot|safe}} {{ script|safe }}
   </body>
 </html>
