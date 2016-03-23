@@ -1,0 +1,12 @@
+MKCLASS v1.07: libnor36 example_input_smoothed.txt
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+MKCLASS v1.07: libnor36 example_input_smoothed.txt
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+MKCLASS v1.07: libnor36 example_input_smoothed.txt
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+MKCLASS v1.07: libnor36 example_input_smoothed.txt
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass

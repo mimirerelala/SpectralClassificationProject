@@ -12,7 +12,7 @@ from . sshkey import ssh_key
 from website import forms as f
 from website import helpers as h
 filename = 0
-
+from .mkclass import Mkclass, test_mk
 # Create your views here.
 
 
@@ -38,13 +38,16 @@ def smart_chart(request):
             #     feedback = 'Error uploading'
             #     filename = 0
         elif request.POST.get('postname') == 'CLASSIFY':
+            mk_instance = Mkclass('files_for_mkclass/example_input.txt')#Give the path within the temp folder!!!!!!!!
+            mk_instance.classify()
+            print("mkclass executed Successfully")
             if filename != 0:
                 feedback = 'Succsessfully plotting'
                 js_resources, css_resources, script, div = h.plot_handle(h.gen_coordinates(os.path.join(h.temp, foldername)))
                 form = f.UploadFileForm()
                 filename = 0
             else:
-                feedback = 'No data submitet for analisys'
+                feedback = 'No data submited for analisys'
                 form = f.UploadFileForm()
                 filename = 0
     else:

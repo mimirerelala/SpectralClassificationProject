@@ -1,0 +1,537 @@
+MKCLASS v1.07: libnor36 example_input.txt_smoothed
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+prelim = norm,shift
+Gband = 0.958042 CaI = 0.516811 HeI4471 = 0.732225 CaK = 0.602030 TiO = 0.966646
+Roughtype2: sp1 = 14.212999  sp2 = 25.279425  sp3 = 43.210082
+Roughtype2: final spt = 14.212999
+t140l50p00.rbn
+Initial type = t140l50p00.rbn
+wavemax = 5357.00
+Emission routine: ave = 0.865047 sdev = 0.190898
+wavemax = 5357.00
+Emission routine: ave = 0.865047 sdev = 0.190898
+emission e = 0
+Carbon ratio = 1.982134
+NN3: slope = 0.000180  height = 0.890957 depth = 0.674232
+wid1 = 4333.000000  wid2 = 4348.000000
+NN3: ratio = 22.247526 width = 15.000000
+Star appears normal
+Spectral template applied
+spt = 14.000002  lum = 5.000000
+Initial Spectral type estimate = B8 V
+Classifying as a B-type star
+K-line type = 22.999317
+
+Classifying this star as an A-type star
+sum1 = 25.164009 sum2 = 57.389027 wavemin = 4341.000000
+D2 = 0.733252
+rw = 4346.000000  bw = 4336.000000
+D2 = 10.0
+lum = 5.200000
+Sr II: dif = 0.110132
+Si II: dif = 0.023341
+mg = -0.018692
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.402084
+K-line type = 22.999317
+CH band dif = 0.029013
+CH band dif = -0.233908
+CH band dif = 2.063448
+CH band dif = 0.029013
+CH band dif = 0.249345
+CH band dif = -0.113133
+CH band dif = 0.008625
+CH band dif = 0.002460
+CH band dif = -0.048056
+Metallic-line type = 22.092449
+K-line type = 22.999317
+Metallic-line type = 22.092449
+Hydrogen-line type = 20.402084
+Amflag = 0
+Merged spt = 21.831284
+lum = 5.200000
+Sr II: dif = 0.115711
+Si II: dif = 0.024839
+1: A8 V  SrSi 1.2e-02
+
+
+Classifying this star as an A-type star
+sum1 = 25.164009 sum2 = 57.389027 wavemin = 4341.000000
+D2 = 0.733252
+rw = 4346.000000  bw = 4336.000000
+D2 = 10.0
+lum = 5.200000
+Sr II: dif = 0.115711
+Si II: dif = 0.024839
+mg = -0.024653
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.515499
+K-line type = 23.010084
+CH band dif = 0.664539
+CH band dif = 0.093706
+CH band dif = -0.343111
+CH band dif = 0.093706
+CH band dif = -0.062051
+CH band dif = -0.137578
+CH band dif = -0.010870
+CH band dif = -0.005503
+CH band dif = 0.001242
+CH band dif = 0.034616
+CH band dif = 0.006732
+Metallic-line type = 22.174503
+K-line type = 23.010084
+Metallic-line type = 22.174503
+Hydrogen-line type = 20.515499
+Amflag = 0
+Merged spt = 21.900030
+lum = 5.200000
+Sr II: dif = 0.115385
+Si II: dif = 0.024751
+1: A8 V  SrSi 1.2e-02
+
+Spectral template spt = 21.9  lum = 5.2
+
+Classifying this star as an A-type star
+sum1 = 23.032547 sum2 = 57.772007 wavemin = 4341.000000
+D2 = 0.695214
+rw = 4347.000000  bw = 4336.000000
+D2 = 11.0
+lum = 5.200000
+Sr II: dif = 0.115123
+Si II: dif = 0.024908
+mg = -0.022524
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.519964
+K-line type = 23.007814
+CH band dif = 0.534311
+CH band dif = 0.062213
+CH band dif = -0.368014
+CH band dif = 0.062213
+CH band dif = -0.086606
+CH band dif = 0.181818
+CH band dif = -0.009297
+CH band dif = -0.003864
+CH band dif = 0.001626
+CH band dif = 0.023918
+CH band dif = 0.007172
+Metallic-line type = 22.129026
+K-line type = 23.007814
+Metallic-line type = 22.129026
+Hydrogen-line type = 20.519964
+Amflag = 0
+Merged spt = 21.885603
+lum = 5.200000
+Sr II: dif = 0.115191
+Si II: dif = 0.024926
+2: A8 V  SrSi 1.6e-03
+
+Spectral template spt = 21.9  lum = 5.2
+
+Classifying this star as an A-type star
+sum1 = 23.033955 sum2 = 57.770832 wavemin = 4341.000000
+D2 = 0.695233
+rw = 4347.000000  bw = 4336.000000
+D2 = 11.0
+lum = 5.200000
+Sr II: dif = 0.115200
+Si II: dif = 0.024921
+mg = -0.022598
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.519905
+K-line type = 23.006151
+CH band dif = 0.556582
+CH band dif = 0.066285
+CH band dif = -0.364356
+CH band dif = 0.066285
+CH band dif = -0.083614
+CH band dif = 0.186881
+CH band dif = -0.008386
+CH band dif = -0.002942
+CH band dif = 0.002556
+CH band dif = 0.025961
+CH band dif = 0.008111
+Metallic-line type = 22.125317
+K-line type = 23.006151
+Metallic-line type = 22.125317
+Hydrogen-line type = 20.519905
+Amflag = 0
+Merged spt = 21.883791
+lum = 5.200000
+Sr II: dif = 0.115209
+Si II: dif = 0.024923
+
+Best iteration: I = 3
+3: A8 V  SrSi 1.6e-03
+
+1:  A8 V  SrSi 		|  fair   | \\  1.2e-02
+2:  A8 V  SrSi 		|  good   | \\  1.6e-03
+3:  A8 V  SrSi 		|  good   | \\  1.6e-03
+================================================
+
+MKCLASS v1.07: libnor36 example_input.txt_smoothed
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+prelim = norm,shift
+Gband = 0.958042 CaI = 0.516811 HeI4471 = 0.732225 CaK = 0.602030 TiO = 0.966646
+Roughtype2: sp1 = 14.212999  sp2 = 25.279425  sp3 = 43.210082
+Roughtype2: final spt = 14.212999
+t140l50p00.rbn
+Initial type = t140l50p00.rbn
+wavemax = 5357.00
+Emission routine: ave = 0.865047 sdev = 0.190898
+wavemax = 5357.00
+Emission routine: ave = 0.865047 sdev = 0.190898
+emission e = 0
+Carbon ratio = 1.982134
+NN3: slope = 0.000180  height = 0.890957 depth = 0.674232
+wid1 = 4333.000000  wid2 = 4348.000000
+NN3: ratio = 22.247526 width = 15.000000
+Star appears normal
+Spectral template applied
+spt = 14.000002  lum = 5.000000
+Initial Spectral type estimate = B8 V
+Classifying as a B-type star
+K-line type = 22.999317
+
+Classifying this star as an A-type star
+sum1 = 25.164009 sum2 = 57.389027 wavemin = 4341.000000
+D2 = 0.733252
+rw = 4346.000000  bw = 4336.000000
+D2 = 10.0
+lum = 5.200000
+Sr II: dif = 0.110132
+Si II: dif = 0.023341
+mg = -0.018692
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.402084
+K-line type = 22.999317
+CH band dif = 0.029013
+CH band dif = -0.233908
+CH band dif = 2.063448
+CH band dif = 0.029013
+CH band dif = 0.249345
+CH band dif = -0.113133
+CH band dif = 0.008625
+CH band dif = 0.002460
+CH band dif = -0.048056
+Metallic-line type = 22.092449
+K-line type = 22.999317
+Metallic-line type = 22.092449
+Hydrogen-line type = 20.402084
+Amflag = 0
+Merged spt = 21.831284
+lum = 5.200000
+Sr II: dif = 0.115711
+Si II: dif = 0.024839
+1: A8 V  SrSi 1.2e-02
+
+
+Classifying this star as an A-type star
+sum1 = 25.164009 sum2 = 57.389027 wavemin = 4341.000000
+D2 = 0.733252
+rw = 4346.000000  bw = 4336.000000
+D2 = 10.0
+lum = 5.200000
+Sr II: dif = 0.115711
+Si II: dif = 0.024839
+mg = -0.024653
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.515499
+K-line type = 23.010084
+CH band dif = 0.664539
+CH band dif = 0.093706
+CH band dif = -0.343111
+CH band dif = 0.093706
+CH band dif = -0.062051
+CH band dif = -0.137578
+CH band dif = -0.010870
+CH band dif = -0.005503
+CH band dif = 0.001242
+CH band dif = 0.034616
+CH band dif = 0.006732
+Metallic-line type = 22.174503
+K-line type = 23.010084
+Metallic-line type = 22.174503
+Hydrogen-line type = 20.515499
+Amflag = 0
+Merged spt = 21.900030
+lum = 5.200000
+Sr II: dif = 0.115385
+Si II: dif = 0.024751
+1: A8 V  SrSi 1.2e-02
+
+Spectral template spt = 21.9  lum = 5.2
+
+Classifying this star as an A-type star
+sum1 = 23.032547 sum2 = 57.772007 wavemin = 4341.000000
+D2 = 0.695214
+rw = 4347.000000  bw = 4336.000000
+D2 = 11.0
+lum = 5.200000
+Sr II: dif = 0.115123
+Si II: dif = 0.024908
+mg = -0.022524
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.519964
+K-line type = 23.007814
+CH band dif = 0.534311
+CH band dif = 0.062213
+CH band dif = -0.368014
+CH band dif = 0.062213
+CH band dif = -0.086606
+CH band dif = 0.181818
+CH band dif = -0.009297
+CH band dif = -0.003864
+CH band dif = 0.001626
+CH band dif = 0.023918
+CH band dif = 0.007172
+Metallic-line type = 22.129026
+K-line type = 23.007814
+Metallic-line type = 22.129026
+Hydrogen-line type = 20.519964
+Amflag = 0
+Merged spt = 21.885603
+lum = 5.200000
+Sr II: dif = 0.115191
+Si II: dif = 0.024926
+2: A8 V  SrSi 1.6e-03
+
+Spectral template spt = 21.9  lum = 5.2
+
+Classifying this star as an A-type star
+sum1 = 23.033955 sum2 = 57.770832 wavemin = 4341.000000
+D2 = 0.695233
+rw = 4347.000000  bw = 4336.000000
+D2 = 11.0
+lum = 5.200000
+Sr II: dif = 0.115200
+Si II: dif = 0.024921
+mg = -0.022598
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.519905
+K-line type = 23.006151
+CH band dif = 0.556582
+CH band dif = 0.066285
+CH band dif = -0.364356
+CH band dif = 0.066285
+CH band dif = -0.083614
+CH band dif = 0.186881
+CH band dif = -0.008386
+CH band dif = -0.002942
+CH band dif = 0.002556
+CH band dif = 0.025961
+CH band dif = 0.008111
+Metallic-line type = 22.125317
+K-line type = 23.006151
+Metallic-line type = 22.125317
+Hydrogen-line type = 20.519905
+Amflag = 0
+Merged spt = 21.883791
+lum = 5.200000
+Sr II: dif = 0.115209
+Si II: dif = 0.024923
+
+Best iteration: I = 3
+3: A8 V  SrSi 1.6e-03
+
+1:  A8 V  SrSi 		|  fair   | \\  1.2e-02
+2:  A8 V  SrSi 		|  good   | \\  1.6e-03
+3:  A8 V  SrSi 		|  good   | \\  1.6e-03
+================================================
+
+MKCLASS v1.07: libnor36 example_input.txt_smoothed
+Roughtype = 2
+MKLIB not set: using default MKLIB path: /usr/local/mkclass
+prelim = norm,shift
+Gband = 0.958042 CaI = 0.516811 HeI4471 = 0.732225 CaK = 0.602030 TiO = 0.966646
+Roughtype2: sp1 = 14.212999  sp2 = 25.279425  sp3 = 43.210082
+Roughtype2: final spt = 14.212999
+t140l50p00.rbn
+Initial type = t140l50p00.rbn
+wavemax = 5357.00
+Emission routine: ave = 0.865047 sdev = 0.190898
+wavemax = 5357.00
+Emission routine: ave = 0.865047 sdev = 0.190898
+emission e = 0
+Carbon ratio = 1.982134
+NN3: slope = 0.000180  height = 0.890957 depth = 0.674232
+wid1 = 4333.000000  wid2 = 4348.000000
+NN3: ratio = 22.247526 width = 15.000000
+Star appears normal
+Spectral template applied
+spt = 14.000002  lum = 5.000000
+Initial Spectral type estimate = B8 V
+Classifying as a B-type star
+K-line type = 22.999317
+
+Classifying this star as an A-type star
+sum1 = 25.164009 sum2 = 57.389027 wavemin = 4341.000000
+D2 = 0.733252
+rw = 4346.000000  bw = 4336.000000
+D2 = 10.0
+lum = 5.200000
+Sr II: dif = 0.110132
+Si II: dif = 0.023341
+mg = -0.018692
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.402084
+K-line type = 22.999317
+CH band dif = 0.029013
+CH band dif = -0.233908
+CH band dif = 2.063448
+CH band dif = 0.029013
+CH band dif = 0.249345
+CH band dif = -0.113133
+CH band dif = 0.008625
+CH band dif = 0.002460
+CH band dif = -0.048056
+Metallic-line type = 22.092449
+K-line type = 22.999317
+Metallic-line type = 22.092449
+Hydrogen-line type = 20.402084
+Amflag = 0
+Merged spt = 21.831284
+lum = 5.200000
+Sr II: dif = 0.115711
+Si II: dif = 0.024839
+1: A8 V  SrSi 1.2e-02
+
+
+Classifying this star as an A-type star
+sum1 = 25.164009 sum2 = 57.389027 wavemin = 4341.000000
+D2 = 0.733252
+rw = 4346.000000  bw = 4336.000000
+D2 = 10.0
+lum = 5.200000
+Sr II: dif = 0.115711
+Si II: dif = 0.024839
+mg = -0.024653
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.515499
+K-line type = 23.010084
+CH band dif = 0.664539
+CH band dif = 0.093706
+CH band dif = -0.343111
+CH band dif = 0.093706
+CH band dif = -0.062051
+CH band dif = -0.137578
+CH band dif = -0.010870
+CH band dif = -0.005503
+CH band dif = 0.001242
+CH band dif = 0.034616
+CH band dif = 0.006732
+Metallic-line type = 22.174503
+K-line type = 23.010084
+Metallic-line type = 22.174503
+Hydrogen-line type = 20.515499
+Amflag = 0
+Merged spt = 21.900030
+lum = 5.200000
+Sr II: dif = 0.115385
+Si II: dif = 0.024751
+1: A8 V  SrSi 1.2e-02
+
+Spectral template spt = 21.9  lum = 5.2
+
+Classifying this star as an A-type star
+sum1 = 23.032547 sum2 = 57.772007 wavemin = 4341.000000
+D2 = 0.695214
+rw = 4347.000000  bw = 4336.000000
+D2 = 11.0
+lum = 5.200000
+Sr II: dif = 0.115123
+Si II: dif = 0.024908
+mg = -0.022524
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.519964
+K-line type = 23.007814
+CH band dif = 0.534311
+CH band dif = 0.062213
+CH band dif = -0.368014
+CH band dif = 0.062213
+CH band dif = -0.086606
+CH band dif = 0.181818
+CH band dif = -0.009297
+CH band dif = -0.003864
+CH band dif = 0.001626
+CH band dif = 0.023918
+CH band dif = 0.007172
+Metallic-line type = 22.129026
+K-line type = 23.007814
+Metallic-line type = 22.129026
+Hydrogen-line type = 20.519964
+Amflag = 0
+Merged spt = 21.885603
+lum = 5.200000
+Sr II: dif = 0.115191
+Si II: dif = 0.024926
+2: A8 V  SrSi 1.6e-03
+
+Spectral template spt = 21.9  lum = 5.2
+
+Classifying this star as an A-type star
+sum1 = 23.033955 sum2 = 57.770832 wavemin = 4341.000000
+D2 = 0.695233
+rw = 4347.000000  bw = 4336.000000
+D2 = 11.0
+lum = 5.200000
+Sr II: dif = 0.115200
+Si II: dif = 0.024921
+mg = -0.022598
+No, it is not a Lambda Boo
+No, it is not a metal-weak star
+This is not a metal-weak star
+Hydrogen-line type = 20.519905
+K-line type = 23.006151
+CH band dif = 0.556582
+CH band dif = 0.066285
+CH band dif = -0.364356
+CH band dif = 0.066285
+CH band dif = -0.083614
+CH band dif = 0.186881
+CH band dif = -0.008386
+CH band dif = -0.002942
+CH band dif = 0.002556
+CH band dif = 0.025961
+CH band dif = 0.008111
+Metallic-line type = 22.125317
+K-line type = 23.006151
+Metallic-line type = 22.125317
+Hydrogen-line type = 20.519905
+Amflag = 0
+Merged spt = 21.883791
+lum = 5.200000
+Sr II: dif = 0.115209
+Si II: dif = 0.024923
+
+Best iteration: I = 3
+3: A8 V  SrSi 1.6e-03
+
+1:  A8 V  SrSi 		|  fair   | \\  1.2e-02
+2:  A8 V  SrSi 		|  good   | \\  1.6e-03
+3:  A8 V  SrSi 		|  good   | \\  1.6e-03
+================================================
+

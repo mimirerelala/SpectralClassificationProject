@@ -1,0 +1,3 @@
+example_input.txt_smoothed  | A8 V  SrSi 		|  good   | \\ 
+example_input.txt_smoothed  | A8 V  SrSi 		|  good   | \\ 
+example_input.txt_smoothed  | A8 V  SrSi 		|  good   | \\ 
